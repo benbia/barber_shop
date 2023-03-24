@@ -1,0 +1,101 @@
+
+
+header {
+    width: 100%;
+    background-color: none;
+    position: fixed;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo_head {
+        margin-left: 30px;
+        text-decoration: none;
+        font-family: 'Phudu', cursive;
+        color: $gris;
+        font-weight: 500;
+        font-size: 3rem;
+
+    }
+
+   nav {
+    display: flex;
+    align-items: center;
+
+    margin-right: 15px;
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            margin-bottom: 0;
+
+            .list_item {
+                
+                font-family: 'Red Hat Display', sans-serif;
+                padding: 12px;
+                margin-left: 20px;
+
+                .book_now {
+                    text-decoration: none;
+                    font-family: 'Red Hat Display', sans-serif;
+                    background-color: $gris;
+                    border-radius: 27px;
+                    color: $azul; 
+                    font-size: 2rem;
+                    font-weight: 800;
+                    padding: 8px 17px;
+                }
+
+                .link-head {
+                    text-decoration: none;
+                    font-family: 'Red Hat Display', sans-serif;
+                    color: $gris; 
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+            }
+        }
+   }
+}
+
+main {
+    .first_sect {
+        background-color: $azul;
+        top: 65px;
+        display: flex;
+        justify-content: space-between;
+        height: 90vh;
+
+        .first_part {
+            align-self: center;
+            margin-left: 30px;
+
+            .h1_title {
+                color: $amarillo;
+                font-family: 'Phudu', cursive;
+                font-size: 5rem;
+                font-weight: 600;
+            }
+            
+            .p_title {
+                color: $amarillo;
+                font-family: 'Red Hat Display', sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .features {
+        background-color: $amarillo;
+    }
+}
+
+
+
+
+// font-family: 'Red Hat Display', sans-serif;
+// font-family: 'Phudu', cursive;
+

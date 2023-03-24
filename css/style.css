@@ -22,4 +22,92 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+header {
+  width: 100%;
+  background-color: none;
+  position: fixed;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo_head {
+  margin-left: 30px;
+  text-decoration: none;
+  font-family: "Phudu", cursive;
+  color: #CCDCD6;
+  font-weight: 500;
+  font-size: 3rem;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+header nav ul .list_item {
+  font-family: "Red Hat Display", sans-serif;
+  padding: 12px;
+  margin-left: 20px;
+}
+header nav ul .list_item .book_now {
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #CCDCD6;
+  border-radius: 27px;
+  color: #0C2E2F;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 8px 17px;
+}
+header nav ul .list_item .link-head {
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+  color: #CCDCD6;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+main .first_sect {
+  background-color: #0C2E2F;
+  top: 65px;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+main .first_sect .first_part {
+  align-self: center;
+  margin-left: 30px;
+}
+main .first_sect .first_part .h1_title {
+  color: #F2AD14;
+  font-family: "Phudu", cursive;
+  font-size: 5rem;
+  font-weight: 600;
+}
+main .first_sect .first_part .p_title {
+  color: #F2AD14;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.5rem;
+}
+main .features {
+  background-color: #F2AD14;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* para que un rem quede en 10 px */
+  font-size: 62.5%;
+}
+
 /*# sourceMappingURL=style.css.map */
