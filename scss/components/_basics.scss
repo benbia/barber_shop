@@ -1,6 +1,6 @@
 
 
-header {
+.header {
     width: 100%;
     background-color: none;
     position: fixed;
@@ -8,12 +8,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 
     .logo_head {
         margin-left: 30px;
         text-decoration: none;
         font-family: 'Phudu', cursive;
-        color: $gris;
+        color: $amarillo;
         font-weight: 500;
         font-size: 3rem;
 
@@ -41,7 +42,7 @@ header {
                 .book_now {
                     text-decoration: none;
                     font-family: 'Red Hat Display', sans-serif;
-                    background-color: $gris;
+                    background-color: $amarillo;
                     border-radius: 27px;
                     color: $azul; 
                     font-size: 2rem;
@@ -52,7 +53,7 @@ header {
                 .link-head {
                     text-decoration: none;
                     font-family: 'Red Hat Display', sans-serif;
-                    color: $gris; 
+                    color: $amarillo; 
                     font-size: 2rem;
                     font-weight: 700;
                 }
@@ -64,7 +65,6 @@ header {
 main {
     .first_sect {
         background-color: $azul;
-        top: 65px;
         display: flex;
         justify-content: space-between;
         height: 90vh;
@@ -76,7 +76,7 @@ main {
             .h1_title {
                 color: $amarillo;
                 font-family: 'Phudu', cursive;
-                font-size: 5rem;
+                font-size: 7rem;
                 font-weight: 600;
             }
             
@@ -88,14 +88,110 @@ main {
         }
     }
 
-    .features {
+    .main_section {
         background-color: $amarillo;
+        padding-bottom: 4rem;
+        padding-top: 10vh;
+        height: 110vh;
     }
+}
+
+.title_services {
+    margin-right: 20px;
+}
+
+.h2_title {
+    color: $rojo;
+    font-family: 'Phudu', cursive;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 40px; 
+}
+
+.h3_cards {
+    color: $azul;
+    font-family: 'Phudu', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.icons {
+    color: $azul;
+    font-size: 4.5rem;
+    padding-bottom: 30px;
+    padding-top: 4rem;
+}
+
+.p_card {
+    color: $azul;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5rem;
+    text-align: left; 
+}
+
+.footer {
+    background-color: $rojo;
+    padding-top: 10vh;
+    padding-bottom: 7rem;
+
+    .h2_footer {
+        color: $amarillo;
+        font-family: 'Phudu', cursive;
+        font-size: 4rem;
+        font-weight: 600;
+        margin-left: 30px;
+        margin-bottom: 20px; 
+    }
+    .p_footer {
+        color: $amarillo;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 2rem;
+        margin-left: 30px;
+        margin-bottom: 5rem;
+    }
+    .boton_footer {
+        text-decoration: none;
+        font-family: 'Red Hat Display', sans-serif;
+        background-color: $amarillo;
+        border-radius: 27px;
+        color: $rojo; 
+        font-size: 3rem;
+        font-weight: 800;
+        padding: 10px 18px;
+        margin-left: 30px;
+    }
+
 }
 
 
 
 
+.iconos_footer {
+    margin-top: 8rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+
+    .icon_footer {
+        color: $amarillo;
+        font-size: 4rem;
+        padding: 0 2rem;
+        
+    }
+}
+
+.icon_svg {
+    height: 115px;
+    padding-bottom: 30px;
+    padding-top: 4rem; 
+}
+
+
+// height: 115px;
+//padding-bottom: 30px;
+//padding-top: 4rem;
 // font-family: 'Red Hat Display', sans-serif;
 // font-family: 'Phudu', cursive;
 

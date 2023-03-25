@@ -1,6 +1,5 @@
 .wrapper {
     width: 100%;
-
 }
 
 .features {
@@ -17,8 +16,10 @@
 
 .carousel .card {
   text-align: center;
-  color: white;
+  color: $gris;
   margin: 20px 0;
   border-radius: 25px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 0 2rem 2rem 2rem;
+  height: 50vh;
 }
