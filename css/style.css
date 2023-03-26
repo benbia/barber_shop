@@ -24,6 +24,11 @@
   height: 50vh;
 }
 
+.header-scrolled {
+  background-color: #0a2729;
+  box-shadow: 0 3px 10px rgba(10, 39, 41, 0.1);
+}
+
 .header {
   width: 100%;
   background-color: none;
@@ -33,6 +38,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 2;
+  transition: all 0.3s;
 }
 .header .logo_head {
   margin-left: 30px;
@@ -64,7 +70,7 @@
   font-family: "Red Hat Display", sans-serif;
   background-color: #F2AD14;
   border-radius: 27px;
-  color: #0C2E2F;
+  color: #0d2f31;
   font-size: 2rem;
   font-weight: 800;
   padding: 8px 17px;
@@ -78,7 +84,7 @@
 }
 
 main .first_sect {
-  background-color: #0C2E2F;
+  background-color: #0d2f31;
   display: flex;
   justify-content: space-between;
   height: 90vh;
@@ -119,22 +125,30 @@ main .main_section {
 }
 
 .h3_cards {
-  color: #0C2E2F;
+  color: #0d2f31;
   font-family: "Phudu", cursive;
   font-size: 2rem;
   font-weight: 600;
   text-align: left;
 }
 
+.h3_cards--styling {
+  color: #0d2f31;
+  font-family: "Phudu", cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 .icons {
-  color: #0C2E2F;
+  color: #0d2f31;
   font-size: 4.5rem;
   padding-bottom: 30px;
   padding-top: 4rem;
 }
 
 .p_card {
-  color: #0C2E2F;
+  color: #0d2f31;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.5rem;
   text-align: left;

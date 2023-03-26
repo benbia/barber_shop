@@ -1,5 +1,8 @@
 
-
+.header-scrolled {
+    background-color: rgba($color: $azul-oscuro, $alpha: 1.0);
+    box-shadow: 0 3px 10px rgba($color: $azul-oscuro, $alpha: 0.1);
+}
 .header {
     width: 100%;
     background-color: none;
@@ -9,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 2;
+    transition: all 0.3s;
 
     .logo_head {
         margin-left: 30px;
@@ -115,6 +119,14 @@ main {
     font-size: 2rem;
     font-weight: 600;
     text-align: left;
+}
+
+.h3_cards--styling {
+    color: $azul;
+    font-family: 'Phudu', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
 }
 
 .icons {
