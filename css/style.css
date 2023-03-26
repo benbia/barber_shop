@@ -99,6 +99,11 @@ main .first_sect .first_part .h1_title {
   font-size: 7rem;
   font-weight: 600;
 }
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+  main .first_sect .first_part .h1_title {
+    font-size: 5vw;
+  }
+}
 main .first_sect .first_part .p_title {
   color: #F2AD14;
   font-family: "Red Hat Display", sans-serif;
@@ -204,6 +209,51 @@ main .main_section {
   padding-top: 4rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .logo_head {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+  }
+  .header ul {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .first_sect {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .first_sect .first_part {
+    margin-left: 0 !important;
+  }
+  .first_sect .h1_title {
+    font-size: 16vw !important;
+    align-self: center;
+    text-align: center;
+  }
+  .first_sect .imagen_gr {
+    display: none;
+  }
+  .first_sect .p_title {
+    display: none;
+  }
+  .book-now-list, .book_now {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer {
+    padding-right: 2rem;
+  }
+  .h1_title {
+    font-size: 12vw;
+    text-align: left;
+  }
+}
 * {
   padding: 0;
   margin: 0;

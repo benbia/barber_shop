@@ -82,6 +82,10 @@ main {
                 font-family: 'Phudu', cursive;
                 font-size: 7rem;
                 font-weight: 600;
+
+                @media screen and (max-width: 1200px) and (min-width: 800px) {
+                    font-size: 5vw;
+                }
             }
             
             .p_title {

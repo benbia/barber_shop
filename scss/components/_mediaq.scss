@@ -1,0 +1,62 @@
+@media screen and (max-width: 1200px) {
+
+    .logo_head {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+
+        ul {
+            padding: 0;
+        }
+    }
+    
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+.first_sect {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    padding: 0 2rem;
+
+    .first_part {
+        margin-left: 0 !important;
+    }
+
+    .h1_title {
+        font-size: 16vw !important;
+        align-self: center;
+        text-align: center;
+    }
+
+    .imagen_gr {
+        display: none;
+    }
+    
+    .p_title {
+        display: none;
+    }
+}  
+
+.book-now-list, .book_now {
+    display: none;
+}
+    
+}
+
+@media screen and (max-width: 576px) {
+
+.footer {
+    padding-right: 2rem;
+}
+.h1_title {
+    font-size: 12vw;
+    text-align: left;
+}
+
+}
