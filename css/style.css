@@ -233,12 +233,10 @@ main .main_section {
   .first_sect .h1_title {
     font-size: 16vw !important;
     align-self: center;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 20px;
   }
   .first_sect .imagen_gr {
-    display: none;
-  }
-  .first_sect .p_title {
     display: none;
   }
   .book-now-list, .book_now {
@@ -266,6 +264,7 @@ html {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
