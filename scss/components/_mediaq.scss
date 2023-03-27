@@ -16,7 +16,10 @@
 
 }
 
-@media screen and (max-width: 992px) {
+
+
+
+@media screen and (max-width: 992px) and (orientation: portrait) {
 
 .header .nav {
     margin-right: 0px !important;
@@ -51,6 +54,18 @@
 .book_now {
     font-size: 2rem;
 }
+
+.carousel .card {
+    height: 40vh;
+}
+
+.wrapper {
+    margin-bottom: 10vh;
+}
+
+main .main_section {
+    height: 80vh;
+}
     
 }
 
@@ -64,4 +79,48 @@
     text-align: left;
 }
 
+}
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+
+    .header .nav {
+        margin-right: 0px !important;
+    }
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0 2rem;
+    
+        .first_part {
+            margin-left: 0 !important;
+        }
+    
+        .h1_title {
+            font-size: 6vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+    
+        .imagen_gr {
+            display: none;
+        }
+
+    }  
+    
+    .list_item {
+        margin-left: 0 !important;
+    }
+    
+    .book_now {
+        font-size: 2rem;
+    }
+
+    main .main_section {
+        height: 130vh;
+    }
+
+    
 }

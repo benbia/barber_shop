@@ -23,6 +23,11 @@
   padding: 0 2rem 2rem 2rem;
   height: 50vh;
 }
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .carousel .card {
+    height: 70vh;
+  }
+}
 
 .header-scrolled {
   background-color: #0a2729;
@@ -233,7 +238,7 @@ main .main_section {
     padding: 0;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (orientation: portrait) {
   .header .nav {
     margin-right: 0px !important;
   }
@@ -261,6 +266,15 @@ main .main_section {
   .book_now {
     font-size: 2rem;
   }
+  .carousel .card {
+    height: 40vh;
+  }
+  .wrapper {
+    margin-bottom: 10vh;
+  }
+  main .main_section {
+    height: 80vh;
+  }
 }
 @media screen and (max-width: 576px) {
   .footer {
@@ -269,6 +283,39 @@ main .main_section {
   .h1_title {
     font-size: 12vw;
     text-align: left;
+  }
+}
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .header .nav {
+    margin-right: 0px !important;
+  }
+  .first_sect {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .first_sect .first_part {
+    margin-left: 0 !important;
+  }
+  .first_sect .h1_title {
+    font-size: 6vw !important;
+    align-self: center;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .first_sect .imagen_gr {
+    display: none;
+  }
+  .list_item {
+    margin-left: 0 !important;
+  }
+  .book_now {
+    font-size: 2rem;
+  }
+  main .main_section {
+    height: 130vh;
   }
 }
 * {
