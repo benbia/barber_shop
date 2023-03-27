@@ -108,12 +108,25 @@ main .first_sect .first_part .p_title {
   color: #F2AD14;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.5rem;
+  margin-bottom: 30px;
 }
 main .main_section {
   background-color: #F2AD14;
   padding-bottom: 4rem;
   padding-top: 10vh;
   height: 110vh;
+}
+
+.boton_middle {
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #A70713;
+  border-radius: 27px;
+  color: #F2AD14;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 20px;
+  padding: 10px 18px;
 }
 
 .title_services {
@@ -221,6 +234,9 @@ main .main_section {
   }
 }
 @media screen and (max-width: 992px) {
+  .header .nav {
+    margin-right: 0px !important;
+  }
   .first_sect {
     display: flex;
     justify-content: center !important;
@@ -239,8 +255,11 @@ main .main_section {
   .first_sect .imagen_gr {
     display: none;
   }
-  .book-now-list, .book_now {
-    display: none;
+  .list_item {
+    margin-left: 0 !important;
+  }
+  .book_now {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 576px) {

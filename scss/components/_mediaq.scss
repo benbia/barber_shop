@@ -18,6 +18,9 @@
 
 @media screen and (max-width: 992px) {
 
+.header .nav {
+    margin-right: 0px !important;
+}
 .first_sect {
     display: flex;
     justify-content: center !important;
@@ -41,8 +44,12 @@
     
 }  
 
-.book-now-list, .book_now {
-    display: none;
+.list_item {
+    margin-left: 0 !important;
+}
+
+.book_now {
+    font-size: 2rem;
 }
     
 }
